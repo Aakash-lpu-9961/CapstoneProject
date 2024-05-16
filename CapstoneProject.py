@@ -58,7 +58,7 @@ if 'show_precision_plot' not in st.session_state:
     st.session_state.show_precision_plot = False
 
 # Import dataset
-data_path = st.text_input("Enter the path to your dataset:", "C:/Users/HP/OneDrive/Documents/Capstone Project Documents/archive/heart.csv")
+data_path = st.text_input("Enter the path to your dataset:", "heart.csv")
 if not data_path:
     st.warning("Please enter a valid dataset path to proceed.")
 else:
